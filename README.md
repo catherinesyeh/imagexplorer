@@ -5,6 +5,8 @@ Made with:
 * Stable Diffusion ([Replicate API](https://replicate.com/stability-ai/stable-diffusion/api))
 * Flask
 
+![Screenshot](static/screenshot.png)
+
 ## setup instructions
 1. clone repo
 ```
