@@ -8,7 +8,7 @@ Made with:
 ## overview
 ![Screenshot](static/overview.png)
 
-ImagExplorer is a reference image brainstorming tool for bridging writer-artist communication powered by Stable Diffusion, a text-to-image AI model. Artists can **a)** view the original text and writer requests for illustrations while **b)** generating reference images. ImagExplorer also **c)** provides suggestions for prompts and starting images to feed into Stable Diffusion. Generated images are **d*)* displayed on the right, and once artists are satisfied with the results, they can perform additional actions **e)** such as downloading or sharing images with the writer.
+ImagExplorer is a reference image brainstorming tool for bridging writer-artist communication powered by Stable Diffusion, a text-to-image AI model. Artists can **a)** view the original text and writer requests for illustrations while **b)** generating reference images. ImagExplorer also **c)** provides suggestions for prompts and starting images to feed into Stable Diffusion. Generated images are **d)** displayed on the right, and once artists are satisfied with the results, they can perform additional actions **e)** such as downloading or sharing images with the writer.
 
 ## setup instructions
 1. clone repo
