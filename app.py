@@ -23,14 +23,14 @@ def is_url(url):
 
 
 def gen_image(i):
-    # model = replicate.models.get("stability-ai/stable-diffusion")
-    # if START_URL:  # use initial image
-    #     output_url = model.predict(
-    #         prompt=PROMPT, width=WIDTH, height=HEIGHT, init_image=START_URL)[0]
-    # else:  # no initial image
-    #     output_url = model.predict(
-    #         prompt=PROMPT, width=WIDTH, height=HEIGHT)[0]
-    output_url = placeholder_imgs[i]
+    model = replicate.models.get("stability-ai/stable-diffusion")
+    if START_URL:  # use initial image
+        output_url = model.predict(
+            prompt=PROMPT, width=WIDTH, height=HEIGHT, init_image=START_URL)[0]
+    else:  # no initial image
+        output_url = model.predict(
+            prompt=PROMPT, width=WIDTH, height=HEIGHT)[0]
+    # output_url = placeholder_imgs[i]
     return output_url
 
 
