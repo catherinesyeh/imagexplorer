@@ -1,5 +1,5 @@
 # ImagExplorer
-An AI-powered brainstorming tool for writer-artist collaboration
+An AI-powered brainstorming tool for writer-artist collaboration ([paper](https://tinyurl.com/imagexplorer-paper))
 
 Made with:
 * Stable Diffusion ([Replicate API](https://replicate.com/stability-ai/stable-diffusion/api))
